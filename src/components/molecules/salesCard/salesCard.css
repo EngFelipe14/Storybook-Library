@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.sales-card {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  place-content: center;
+  gap: 30px;
+  padding: 20px;
+  width: 230px;
+  height: auto;
+  word-break: break-all;
+  border-radius: 30px;
+  color: #f0f0f0;
+  background: #212121;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25),
+    -15px -15px 30px rgb(60, 60, 60);
+}
+
+.container-heading-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sales-card-price{
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  
+}
+
+.sales-card-price > :first-child {
+  font-size: 64px;
+}
+
+.sales-card-price > :last-child {
+  align-self: center;
+}
+
+.sales-card-button {
+  display: flex;
+  place-content: center;
+  width: 90%;
+  background: linear-gradient( #ffffff , #ffffff );
+  box-shadow: 0 12px 30px -6px rgba(136, 136, 136, 0.5);
+  
+}
+
+.sales-card-button:hover {
+  transform: translateY(3px);
+  box-shadow: 0 8px 15px -6px rgba(177, 177, 177, 0.5);
+}

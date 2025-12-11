@@ -1,0 +1,7 @@
+@import url('../../../core/styles/color.css');
+@import url('../../../core/styles/fontSize.css');
+
+.paragraph {
+  margin: 0;
+  padding: 0;
+}

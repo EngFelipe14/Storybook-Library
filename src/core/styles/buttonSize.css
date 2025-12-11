@@ -1,0 +1,17 @@
+.btn-sm {
+  padding: 8px 12px;
+  font-size: 14px;
+  height: 32px;
+}
+
+.btn-md {
+  padding: 12px 16px;
+  font-size: 16px;
+  height: 40px;
+}
+
+.btn-lg {
+  padding: 16px 20px;
+  font-size: 18px;
+  height: 48px;
+}
